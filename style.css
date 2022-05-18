@@ -8,6 +8,7 @@ html {
 }
 
 body {
+    margin-top: 0px;
     background-color: white;
     width: 1200px
 }
@@ -40,7 +41,49 @@ main{
 }
 
 .dog-tag{
-    display: flex;
-    flex-direction: row;
-    background-color:#89DEEF
+    display: inline-block;
+    background-color:#89DEEF;
+    border-radius: 10px;
+    border: 1px solid black;
+    margin: 2px;
+    padding: 5px;
 }
+
+.footer-row{
+    display: flex;
+    height: 250px;
+}
+
+.donate {
+    background-image: url(./starter_files/images/donate.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1 1 auto;
+}
+
+.volunteer {
+    background-image: url(./starter_files/images/volunteer.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1 1 auto;
+}
+.location {
+    background-image: url(./starter_files/images/location.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1 1 auto;
+}
+
+.footer-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: rgba(65, 65, 145, 0.369);
+    height: 100%;
+    width: 100%;
+}
+
