@@ -72,6 +72,7 @@ main{
 .donate {
     background-image: url(./starter_files/images/donate.jpg);
     background-size:cover;
+    width: 400px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -81,6 +82,7 @@ main{
 .volunteer {
     background-image: url(./starter_files/images/volunteer.jpg);
     background-size:cover;
+    width: 400px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -88,7 +90,8 @@ main{
 }
 .location {
     background-image: url(./starter_files/images/location.png);
-    background-size:cover;
+    background-size:contain;
+    width: 400px;
     display: flex;
     justify-content: center;
     align-items: center;
