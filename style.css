@@ -8,9 +8,19 @@ html {
 }
 
 body {
+    font-family: Oswald;
     margin-top: 0px;
     background-color: white;
     width: 1200px
+}
+
+h1{
+    font-size: 35px;
+}
+
+h2{
+    font-size: 25px;
+    margin: 0px;
 }
 
 header {
@@ -29,6 +39,11 @@ main{
     display: flex;
     justify-content: left;
     flex-direction: row;
+}
+
+.dog-title{
+    font-size: 20px;
+    margin: 0px;
 }
 
 .dog-box {
@@ -51,11 +66,12 @@ main{
 
 .footer-row{
     display: flex;
-    height: 250px;
+    height: 250px
 }
 
 .donate {
     background-image: url(./starter_files/images/donate.jpg);
+    background-size:cover;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -64,6 +80,7 @@ main{
 
 .volunteer {
     background-image: url(./starter_files/images/volunteer.jpg);
+    background-size:cover;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -71,6 +88,7 @@ main{
 }
 .location {
     background-image: url(./starter_files/images/location.png);
+    background-size:cover;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -82,7 +100,7 @@ main{
     justify-content: center;
     align-items: center;
     color: white;
-    background-color: rgba(65, 65, 145, 0.369);
+    background-color: rgba(135, 139, 240, 0.5);
     height: 100%;
     width: 100%;
 }
